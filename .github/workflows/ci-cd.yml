@@ -2,12 +2,11 @@ name: React CI/CD Pipeline
 
 on:
   push:
-    branches: [main]
+    branches: [master]   # or main if your branch is main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -25,5 +24,3 @@ jobs:
 
     - name: Build app
       run: npm run build
-
-    
