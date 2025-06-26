@@ -8,11 +8,6 @@ function App() {
         <p className="text-gray-600 mb-6">
           This is a modern, responsive, and clean React app powered by Tailwind CSS.
         </p>
-        <button
-          className="inline-block bg-pink-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-pink-600 transition"
-        >
-          Explore Now
-        </button>
       </div>
     </div>
   );
